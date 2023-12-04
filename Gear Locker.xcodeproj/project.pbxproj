@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A03AD1DC2B1E278600A62B21 /* Gear_LockerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03AD1DB2B1E278600A62B21 /* Gear_LockerApp.swift */; };
+		A03AD1DE2B1E278600A62B21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03AD1DD2B1E278600A62B21 /* ContentView.swift */; };
+		A03AD1E02B1E278600A62B21 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03AD1DF2B1E278600A62B21 /* Item.swift */; };
+		A03AD1E22B1E278800A62B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A03AD1E12B1E278800A62B21 /* Assets.xcassets */; };
+		A03AD1E52B1E278800A62B21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A03AD1E42B1E278800A62B21 /* Preview Assets.xcassets */; };
+		A03AD1EF2B1E278800A62B21 /* Gear_LockerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03AD1EE2B1E278800A62B21 /* Gear_LockerTests.swift */; };
+		A03AD1F92B1E278800A62B21 /* Gear_LockerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03AD1F82B1E278800A62B21 /* Gear_LockerUITests.swift */; };
+		A03AD1FB2B1E278800A62B21 /* Gear_LockerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03AD1FA2B1E278800A62B21 /* Gear_LockerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A03AD1EB2B1E278800A62B21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A03AD1D02B1E278600A62B21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A03AD1D72B1E278600A62B21;
+			remoteInfo = "Gear Locker";
+		};
+		A03AD1F52B1E278800A62B21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A03AD1D02B1E278600A62B21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A03AD1D72B1E278600A62B21;
+			remoteInfo = "Gear Locker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A03AD1D82B1E278600A62B21 /* Gear Locker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gear Locker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A03AD1DB2B1E278600A62B21 /* Gear_LockerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gear_LockerApp.swift; sourceTree = "<group>"; };
+		A03AD1DD2B1E278600A62B21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A03AD1DF2B1E278600A62B21 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		A03AD1E12B1E278800A62B21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A03AD1E42B1E278800A62B21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A03AD1EA2B1E278800A62B21 /* Gear LockerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gear LockerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A03AD1EE2B1E278800A62B21 /* Gear_LockerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gear_LockerTests.swift; sourceTree = "<group>"; };
+		A03AD1F42B1E278800A62B21 /* Gear LockerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gear LockerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A03AD1F82B1E278800A62B21 /* Gear_LockerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gear_LockerUITests.swift; sourceTree = "<group>"; };
+		A03AD1FA2B1E278800A62B21 /* Gear_LockerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gear_LockerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A03AD1D52B1E278600A62B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A03AD1E72B1E278800A62B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A03AD1F12B1E278800A62B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A03AD1CF2B1E278600A62B21 = {
+			isa = PBXGroup;
+			children = (
+				A03AD1DA2B1E278600A62B21 /* Gear Locker */,
+				A03AD1ED2B1E278800A62B21 /* Gear LockerTests */,
+				A03AD1F72B1E278800A62B21 /* Gear LockerUITests */,
+				A03AD1D92B1E278600A62B21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A03AD1D92B1E278600A62B21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A03AD1D82B1E278600A62B21 /* Gear Locker.app */,
+				A03AD1EA2B1E278800A62B21 /* Gear LockerTests.xctest */,
+				A03AD1F42B1E278800A62B21 /* Gear LockerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A03AD1DA2B1E278600A62B21 /* Gear Locker */ = {
+			isa = PBXGroup;
+			children = (
+				A03AD1DB2B1E278600A62B21 /* Gear_LockerApp.swift */,
+				A03AD1DD2B1E278600A62B21 /* ContentView.swift */,
+				A03AD1DF2B1E278600A62B21 /* Item.swift */,
+				A03AD1E12B1E278800A62B21 /* Assets.xcassets */,
+				A03AD1E32B1E278800A62B21 /* Preview Content */,
+			);
+			path = "Gear Locker";
+			sourceTree = "<group>";
+		};
+		A03AD1E32B1E278800A62B21 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A03AD1E42B1E278800A62B21 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A03AD1ED2B1E278800A62B21 /* Gear LockerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A03AD1EE2B1E278800A62B21 /* Gear_LockerTests.swift */,
+			);
+			path = "Gear LockerTests";
+			sourceTree = "<group>";
+		};
+		A03AD1F72B1E278800A62B21 /* Gear LockerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A03AD1F82B1E278800A62B21 /* Gear_LockerUITests.swift */,
+				A03AD1FA2B1E278800A62B21 /* Gear_LockerUITestsLaunchTests.swift */,
+			);
+			path = "Gear LockerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A03AD1D72B1E278600A62B21 /* Gear Locker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A03AD1FE2B1E278800A62B21 /* Build configuration list for PBXNativeTarget "Gear Locker" */;
+			buildPhases = (
+				A03AD1D42B1E278600A62B21 /* Sources */,
+				A03AD1D52B1E278600A62B21 /* Frameworks */,
+				A03AD1D62B1E278600A62B21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gear Locker";
+			productName = "Gear Locker";
+			productReference = A03AD1D82B1E278600A62B21 /* Gear Locker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A03AD1E92B1E278800A62B21 /* Gear LockerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A03AD2012B1E278800A62B21 /* Build configuration list for PBXNativeTarget "Gear LockerTests" */;
+			buildPhases = (
+				A03AD1E62B1E278800A62B21 /* Sources */,
+				A03AD1E72B1E278800A62B21 /* Frameworks */,
+				A03AD1E82B1E278800A62B21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A03AD1EC2B1E278800A62B21 /* PBXTargetDependency */,
+			);
+			name = "Gear LockerTests";
+			productName = "Gear LockerTests";
+			productReference = A03AD1EA2B1E278800A62B21 /* Gear LockerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A03AD1F32B1E278800A62B21 /* Gear LockerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A03AD2042B1E278800A62B21 /* Build configuration list for PBXNativeTarget "Gear LockerUITests" */;
+			buildPhases = (
+				A03AD1F02B1E278800A62B21 /* Sources */,
+				A03AD1F12B1E278800A62B21 /* Frameworks */,
+				A03AD1F22B1E278800A62B21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A03AD1F62B1E278800A62B21 /* PBXTargetDependency */,
+			);
+			name = "Gear LockerUITests";
+			productName = "Gear LockerUITests";
+			productReference = A03AD1F42B1E278800A62B21 /* Gear LockerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A03AD1D02B1E278600A62B21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A03AD1D72B1E278600A62B21 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					A03AD1E92B1E278800A62B21 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = A03AD1D72B1E278600A62B21;
+					};
+					A03AD1F32B1E278800A62B21 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = A03AD1D72B1E278600A62B21;
+					};
+				};
+			};
+			buildConfigurationList = A03AD1D32B1E278600A62B21 /* Build configuration list for PBXProject "Gear Locker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A03AD1CF2B1E278600A62B21;
+			productRefGroup = A03AD1D92B1E278600A62B21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A03AD1D72B1E278600A62B21 /* Gear Locker */,
+				A03AD1E92B1E278800A62B21 /* Gear LockerTests */,
+				A03AD1F32B1E278800A62B21 /* Gear LockerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A03AD1D62B1E278600A62B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A03AD1E52B1E278800A62B21 /* Preview Assets.xcassets in Resources */,
+				A03AD1E22B1E278800A62B21 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A03AD1E82B1E278800A62B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A03AD1F22B1E278800A62B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A03AD1D42B1E278600A62B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A03AD1DE2B1E278600A62B21 /* ContentView.swift in Sources */,
+				A03AD1E02B1E278600A62B21 /* Item.swift in Sources */,
+				A03AD1DC2B1E278600A62B21 /* Gear_LockerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A03AD1E62B1E278800A62B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A03AD1EF2B1E278800A62B21 /* Gear_LockerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A03AD1F02B1E278800A62B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A03AD1F92B1E278800A62B21 /* Gear_LockerUITests.swift in Sources */,
+				A03AD1FB2B1E278800A62B21 /* Gear_LockerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A03AD1EC2B1E278800A62B21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A03AD1D72B1E278600A62B21 /* Gear Locker */;
+			targetProxy = A03AD1EB2B1E278800A62B21 /* PBXContainerItemProxy */;
+		};
+		A03AD1F62B1E278800A62B21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A03AD1D72B1E278600A62B21 /* Gear Locker */;
+			targetProxy = A03AD1F52B1E278800A62B21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A03AD1FC2B1E278800A62B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A03AD1FD2B1E278800A62B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A03AD1FF2B1E278800A62B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gear Locker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ece1895-nml.Gear-Locker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A03AD2002B1E278800A62B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gear Locker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ece1895-nml.Gear-Locker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A03AD2022B1E278800A62B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ece1895-nml.Gear-LockerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gear Locker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gear Locker";
+			};
+			name = Debug;
+		};
+		A03AD2032B1E278800A62B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ece1895-nml.Gear-LockerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gear Locker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gear Locker";
+			};
+			name = Release;
+		};
+		A03AD2052B1E278800A62B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ece1895-nml.Gear-LockerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gear Locker";
+			};
+			name = Debug;
+		};
+		A03AD2062B1E278800A62B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ece1895-nml.Gear-LockerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gear Locker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A03AD1D32B1E278600A62B21 /* Build configuration list for PBXProject "Gear Locker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A03AD1FC2B1E278800A62B21 /* Debug */,
+				A03AD1FD2B1E278800A62B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A03AD1FE2B1E278800A62B21 /* Build configuration list for PBXNativeTarget "Gear Locker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A03AD1FF2B1E278800A62B21 /* Debug */,
+				A03AD2002B1E278800A62B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A03AD2012B1E278800A62B21 /* Build configuration list for PBXNativeTarget "Gear LockerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A03AD2022B1E278800A62B21 /* Debug */,
+				A03AD2032B1E278800A62B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A03AD2042B1E278800A62B21 /* Build configuration list for PBXNativeTarget "Gear LockerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A03AD2052B1E278800A62B21 /* Debug */,
+				A03AD2062B1E278800A62B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A03AD1D02B1E278600A62B21 /* Project object */;
+}
