@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A03193722B28F7D400CFD343 /* man-mountain-biking.png in Resources */ = {isa = PBXBuildFile; fileRef = A03193702B28F7D300CFD343 /* man-mountain-biking.png */; };
+		A03193732B28F7D400CFD343 /* person_climbing.png in Resources */ = {isa = PBXBuildFile; fileRef = A03193712B28F7D400CFD343 /* person_climbing.png */; };
+		A03193752B290B4000CFD343 /* BikeGarageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03193742B290B4000CFD343 /* BikeGarageView.swift */; };
+		A03193772B291CF600CFD343 /* BikeTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03193762B291CF600CFD343 /* BikeTileView.swift */; };
+		A031937B2B291ED100CFD343 /* BikeGearModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A031937A2B291ED100CFD343 /* BikeGearModel.swift */; };
+		A031937D2B29699A00CFD343 /* LoadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A031937C2B29699A00CFD343 /* LoadData.swift */; };
 		A03AD1DC2B1E278600A62B21 /* Gear_LockerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03AD1DB2B1E278600A62B21 /* Gear_LockerApp.swift */; };
-		A03AD1DE2B1E278600A62B21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03AD1DD2B1E278600A62B21 /* ContentView.swift */; };
 		A03AD1E02B1E278600A62B21 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03AD1DF2B1E278600A62B21 /* Item.swift */; };
 		A03AD1E22B1E278800A62B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A03AD1E12B1E278800A62B21 /* Assets.xcassets */; };
 		A03AD1E52B1E278800A62B21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A03AD1E42B1E278800A62B21 /* Preview Assets.xcassets */; };
 		A03AD1EF2B1E278800A62B21 /* Gear_LockerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03AD1EE2B1E278800A62B21 /* Gear_LockerTests.swift */; };
 		A03AD1F92B1E278800A62B21 /* Gear_LockerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03AD1F82B1E278800A62B21 /* Gear_LockerUITests.swift */; };
 		A03AD1FB2B1E278800A62B21 /* Gear_LockerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03AD1FA2B1E278800A62B21 /* Gear_LockerUITestsLaunchTests.swift */; };
+		A0A3EEB72B20D3AF00F4D8F7 /* GearLockerHomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A3EEB62B20D3AF00F4D8F7 /* GearLockerHomePageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A03193702B28F7D300CFD343 /* man-mountain-biking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "man-mountain-biking.png"; path = "../../../../../../../../../Downloads/man-mountain-biking.png"; sourceTree = "<group>"; };
+		A03193712B28F7D400CFD343 /* person_climbing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = person_climbing.png; path = ../../../../../../../../../Downloads/person_climbing.png; sourceTree = "<group>"; };
+		A03193742B290B4000CFD343 /* BikeGarageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeGarageView.swift; sourceTree = "<group>"; };
+		A03193762B291CF600CFD343 /* BikeTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeTileView.swift; sourceTree = "<group>"; };
+		A031937A2B291ED100CFD343 /* BikeGearModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeGearModel.swift; sourceTree = "<group>"; };
+		A031937C2B29699A00CFD343 /* LoadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadData.swift; sourceTree = "<group>"; };
 		A03AD1D82B1E278600A62B21 /* Gear Locker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gear Locker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03AD1DB2B1E278600A62B21 /* Gear_LockerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gear_LockerApp.swift; sourceTree = "<group>"; };
-		A03AD1DD2B1E278600A62B21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A03AD1DF2B1E278600A62B21 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		A03AD1E12B1E278800A62B21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A03AD1E42B1E278800A62B21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -46,6 +57,7 @@
 		A03AD1F42B1E278800A62B21 /* Gear LockerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gear LockerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03AD1F82B1E278800A62B21 /* Gear_LockerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gear_LockerUITests.swift; sourceTree = "<group>"; };
 		A03AD1FA2B1E278800A62B21 /* Gear_LockerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gear_LockerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A0A3EEB62B20D3AF00F4D8F7 /* GearLockerHomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearLockerHomePageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +109,16 @@
 			isa = PBXGroup;
 			children = (
 				A03AD1DB2B1E278600A62B21 /* Gear_LockerApp.swift */,
-				A03AD1DD2B1E278600A62B21 /* ContentView.swift */,
 				A03AD1DF2B1E278600A62B21 /* Item.swift */,
 				A03AD1E12B1E278800A62B21 /* Assets.xcassets */,
 				A03AD1E32B1E278800A62B21 /* Preview Content */,
+				A0A3EEB62B20D3AF00F4D8F7 /* GearLockerHomePageView.swift */,
+				A03193742B290B4000CFD343 /* BikeGarageView.swift */,
+				A03193762B291CF600CFD343 /* BikeTileView.swift */,
+				A031937A2B291ED100CFD343 /* BikeGearModel.swift */,
+				A031937C2B29699A00CFD343 /* LoadData.swift */,
+				A03193702B28F7D300CFD343 /* man-mountain-biking.png */,
+				A03193712B28F7D400CFD343 /* person_climbing.png */,
 			);
 			path = "Gear Locker";
 			sourceTree = "<group>";
@@ -235,6 +253,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A03AD1E52B1E278800A62B21 /* Preview Assets.xcassets in Resources */,
+				A03193732B28F7D400CFD343 /* person_climbing.png in Resources */,
+				A03193722B28F7D400CFD343 /* man-mountain-biking.png in Resources */,
 				A03AD1E22B1E278800A62B21 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,9 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A03AD1DE2B1E278600A62B21 /* ContentView.swift in Sources */,
+				A03193772B291CF600CFD343 /* BikeTileView.swift in Sources */,
+				A031937D2B29699A00CFD343 /* LoadData.swift in Sources */,
+				A03193752B290B4000CFD343 /* BikeGarageView.swift in Sources */,
 				A03AD1E02B1E278600A62B21 /* Item.swift in Sources */,
+				A0A3EEB72B20D3AF00F4D8F7 /* GearLockerHomePageView.swift in Sources */,
 				A03AD1DC2B1E278600A62B21 /* Gear_LockerApp.swift in Sources */,
+				A031937B2B291ED100CFD343 /* BikeGearModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

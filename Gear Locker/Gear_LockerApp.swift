@@ -25,7 +25,7 @@ struct Gear_LockerApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GearLockerHomePageView()
         }
         .modelContainer(sharedModelContainer)
     }

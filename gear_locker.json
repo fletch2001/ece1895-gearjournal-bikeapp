@@ -1,0 +1,15 @@
+{
+    "bikes": {
+        {
+            "id": 1,
+            "name": "blue bandit 2.0",
+            "manufacturer": "Fuji",
+            "model": "Sportif 1.5 Disc",
+            "year": "2015",
+            "mileage": "1054.6"
+        }
+    },
+    "climbing-gear": {
+
+    }
+}
