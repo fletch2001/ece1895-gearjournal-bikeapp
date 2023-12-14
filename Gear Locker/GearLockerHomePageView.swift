@@ -7,12 +7,16 @@
 
 import SwiftUI
 
+
+
 struct GearLockerHomePageView: View {
+    @Binding var bikeGarage: [BikeGearModel]
+    let saveAction: ()->Void
     var body: some View {
         //Spacer()
         TabView{
             // bike section
-            BikeGarageView()
+            BikeGarageView(bikeGarage: $bikeGarage, saveAction: {})
                 .tabItem {
                     Image(systemName: "figure.outdoor.cycle")
                     //Text("🚴")
@@ -53,6 +57,6 @@ struct GearLockerHomePageView: View {
 
 struct GearHomePageView_Previews: PreviewProvider {
     static var previews: some View {
-        GearLockerHomePageView()
+        GearLockerHomePageView(bikeGarage: .constant(BikeGearModel.sampleBikes), saveAction: {})
     }
 }

@@ -12,7 +12,7 @@ let stravaOrange = Color(red: 228 / 255, green : 91 / 255, blue: 41 / 255)
 struct BikeTileView: View {
     private let foreGroundColor = Color(red: 90/255, green: 72/255, blue: 30 / 255)
     
-    let bike: BikeGearModel
+    @Binding var bike: BikeGearModel
     
     var body: some View {
         HStack(alignment: .top) {
@@ -22,12 +22,22 @@ struct BikeTileView: View {
                     .font(.title)
                 Text("\(bike.year) \(bike.manufacturer) \(bike.model)")
                 // connected to strava status
-                Text("Not Connected to Strava")
-                    .foregroundStyle(.white)
-                    .background(Rectangle().fill(stravaOrange))
-                    .clipShape(RoundedRectangle(cornerRadius: 5, style: .continuous))
-                    .shadow(radius: 2)
-                    .padding(0.1)
+                
+                if(bike.stravaID != nil) {
+                    Text("Connected to Strava")
+                        .foregroundStyle(.white)
+                        .background(Rectangle().fill(stravaOrange))
+                        .clipShape(RoundedRectangle(cornerRadius: 5, style: .continuous))
+                        .shadow(radius: 2)
+                        .padding(0.1)
+                } else {
+                    Text("Not Connected to Strava")
+                        .foregroundStyle(.white)
+                        .background(Rectangle().fill(stravaOrange))
+                        .clipShape(RoundedRectangle(cornerRadius: 5, style: .continuous))
+                        .shadow(radius: 2)
+                        .padding(0.1)
+                }
             }
             Spacer()
             VStack{
@@ -47,12 +57,12 @@ struct BikeTileView: View {
     }
 }
 
-var testBike: BikeGearModel = BikeGearModel(id: 1, name: "rock rumbler", manufacturer: "Specialized", model: "Stumpjumper", year: "1988", mileage: 1234.5)
+var testBike: BikeGearModel = BikeGearModel(name: "rock rumbler", manufacturer: "Specialized", model: "Stumpjumper", year: "1988", mileage: 1234.5)
 
 #Preview {
     
 //    testBike.id = 1
 //    testBike.name = "test bike 1"
-    BikeTileView(bike: testBike)
+    BikeTileView(bike: .constant(BikeGearModel.sampleBikes[0]))
     //BikeTileView()
 }

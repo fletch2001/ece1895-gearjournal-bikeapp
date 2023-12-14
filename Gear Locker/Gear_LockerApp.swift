@@ -10,23 +10,27 @@ import SwiftData
 
 @main
 struct Gear_LockerApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
-
+    @StateObject private var bikeStore = BikeStore()
+    
     var body: some Scene {
         WindowGroup {
-            GearLockerHomePageView()
+            //GearLockerHomePageView(bikeGarage: $bikeStore.bikes) {
+            BikeGarageView(bikeGarage: $bikeStore.bikes) {
+                Task {
+                    do {
+                        try await bikeStore.save(bikes: bikeStore.bikes)
+                    } catch {
+                        fatalError(error.localizedDescription)
+                    }
+                }
+            }
+            .task {
+                do {
+                    try await bikeStore.load()
+                } catch {
+                    fatalError(error.localizedDescription)
+                }
+            }
         }
-        .modelContainer(sharedModelContainer)
     }
 }
