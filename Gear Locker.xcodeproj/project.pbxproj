@@ -7,32 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A01D87CC2B2D06A100D243F7 /* StravaOAuthTokenJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01D87CB2B2D06A100D243F7 /* StravaOAuthTokenJSON.swift */; };
+		A01D87CE2B2D203300D243F7 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01D87CD2B2D203300D243F7 /* WebService.swift */; };
+		A01D87D42B2D2A3500D243F7 /* StravaBikeTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01D87D32B2D2A3500D243F7 /* StravaBikeTileView.swift */; };
 		A03193722B28F7D400CFD343 /* man-mountain-biking.png in Resources */ = {isa = PBXBuildFile; fileRef = A03193702B28F7D300CFD343 /* man-mountain-biking.png */; };
 		A03193732B28F7D400CFD343 /* person_climbing.png in Resources */ = {isa = PBXBuildFile; fileRef = A03193712B28F7D400CFD343 /* person_climbing.png */; };
 		A03193752B290B4000CFD343 /* BikeGarageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03193742B290B4000CFD343 /* BikeGarageView.swift */; };
 		A03193772B291CF600CFD343 /* BikeTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03193762B291CF600CFD343 /* BikeTileView.swift */; };
 		A031937B2B291ED100CFD343 /* BikeGearModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A031937A2B291ED100CFD343 /* BikeGearModel.swift */; };
 		A03AD1DC2B1E278600A62B21 /* Gear_LockerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03AD1DB2B1E278600A62B21 /* Gear_LockerApp.swift */; };
-		A03AD1E02B1E278600A62B21 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03AD1DF2B1E278600A62B21 /* Item.swift */; };
 		A03AD1E22B1E278800A62B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A03AD1E12B1E278800A62B21 /* Assets.xcassets */; };
 		A03AD1E52B1E278800A62B21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A03AD1E42B1E278800A62B21 /* Preview Assets.xcassets */; };
-		A03AD1EF2B1E278800A62B21 /* Gear_LockerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03AD1EE2B1E278800A62B21 /* Gear_LockerTests.swift */; };
 		A03AD1F92B1E278800A62B21 /* Gear_LockerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03AD1F82B1E278800A62B21 /* Gear_LockerUITests.swift */; };
 		A03AD1FB2B1E278800A62B21 /* Gear_LockerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03AD1FA2B1E278800A62B21 /* Gear_LockerUITestsLaunchTests.swift */; };
+		A041AFA42B2E2BDE007E0B61 /* StravaAthlete.swift in Sources */ = {isa = PBXBuildFile; fileRef = A041AFA32B2E2BDE007E0B61 /* StravaAthlete.swift */; };
+		A04844E32B2CB5A8005C8BB5 /* BikeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04844E22B2CB5A8005C8BB5 /* BikeError.swift */; };
+		A04844F42B2CFC98005C8BB5 /* StravaBike.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04844F32B2CFC98005C8BB5 /* StravaBike.swift */; };
 		A05E6FE42B2A5C8B0027A219 /* GearStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05E6FE32B2A5C8B0027A219 /* GearStore.swift */; };
 		A05E6FE62B2A81230027A219 /* BikeEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05E6FE52B2A81230027A219 /* BikeEditorView.swift */; };
 		A0A3EEB72B20D3AF00F4D8F7 /* GearLockerHomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A3EEB62B20D3AF00F4D8F7 /* GearLockerHomePageView.swift */; };
+		A0ACC18E2B2D017D00A460E3 /* StravaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ACC18D2B2D017D00A460E3 /* StravaTests.swift */; };
+		A0ACC1952B2D01AA00A460E3 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ACC1942B2D01AA00A460E3 /* TestData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A03AD1EB2B1E278800A62B21 /* PBXContainerItemProxy */ = {
+		A03AD1F52B1E278800A62B21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A03AD1D02B1E278600A62B21 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A03AD1D72B1E278600A62B21;
 			remoteInfo = "Gear Locker";
 		};
-		A03AD1F52B1E278800A62B21 /* PBXContainerItemProxy */ = {
+		A0ACC18F2B2D017D00A460E3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A03AD1D02B1E278600A62B21 /* Project object */;
 			proxyType = 1;
@@ -42,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A01D87CB2B2D06A100D243F7 /* StravaOAuthTokenJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StravaOAuthTokenJSON.swift; sourceTree = "<group>"; };
+		A01D87CD2B2D203300D243F7 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		A01D87D32B2D2A3500D243F7 /* StravaBikeTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StravaBikeTileView.swift; sourceTree = "<group>"; };
 		A03193702B28F7D300CFD343 /* man-mountain-biking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "man-mountain-biking.png"; path = "../../../../../../../../../Downloads/man-mountain-biking.png"; sourceTree = "<group>"; };
 		A03193712B28F7D400CFD343 /* person_climbing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = person_climbing.png; path = ../../../../../../../../../Downloads/person_climbing.png; sourceTree = "<group>"; };
 		A03193742B290B4000CFD343 /* BikeGarageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeGarageView.swift; sourceTree = "<group>"; };
@@ -49,28 +58,24 @@
 		A031937A2B291ED100CFD343 /* BikeGearModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeGearModel.swift; sourceTree = "<group>"; };
 		A03AD1D82B1E278600A62B21 /* Gear Locker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gear Locker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03AD1DB2B1E278600A62B21 /* Gear_LockerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gear_LockerApp.swift; sourceTree = "<group>"; };
-		A03AD1DF2B1E278600A62B21 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		A03AD1E12B1E278800A62B21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A03AD1E42B1E278800A62B21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A03AD1EA2B1E278800A62B21 /* Gear LockerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gear LockerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A03AD1EE2B1E278800A62B21 /* Gear_LockerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gear_LockerTests.swift; sourceTree = "<group>"; };
 		A03AD1F42B1E278800A62B21 /* Gear LockerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gear LockerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03AD1F82B1E278800A62B21 /* Gear_LockerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gear_LockerUITests.swift; sourceTree = "<group>"; };
 		A03AD1FA2B1E278800A62B21 /* Gear_LockerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gear_LockerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A041AFA32B2E2BDE007E0B61 /* StravaAthlete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StravaAthlete.swift; sourceTree = "<group>"; };
+		A04844E22B2CB5A8005C8BB5 /* BikeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeError.swift; sourceTree = "<group>"; };
+		A04844F32B2CFC98005C8BB5 /* StravaBike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StravaBike.swift; sourceTree = "<group>"; };
 		A05E6FE32B2A5C8B0027A219 /* GearStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearStore.swift; sourceTree = "<group>"; };
 		A05E6FE52B2A81230027A219 /* BikeEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeEditorView.swift; sourceTree = "<group>"; };
 		A0A3EEB62B20D3AF00F4D8F7 /* GearLockerHomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearLockerHomePageView.swift; sourceTree = "<group>"; };
+		A0ACC18B2B2D017D00A460E3 /* StravaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StravaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0ACC18D2B2D017D00A460E3 /* StravaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StravaTests.swift; sourceTree = "<group>"; };
+		A0ACC1942B2D01AA00A460E3 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A03AD1D52B1E278600A62B21 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A03AD1E72B1E278800A62B21 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,15 +89,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A0ACC1882B2D017D00A460E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A01D87C92B2D065E00D243F7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A03193742B290B4000CFD343 /* BikeGarageView.swift */,
+				A05E6FE52B2A81230027A219 /* BikeEditorView.swift */,
+				A03193762B291CF600CFD343 /* BikeTileView.swift */,
+				A01D87D32B2D2A3500D243F7 /* StravaBikeTileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A01D87CA2B2D067300D243F7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A05E6FE32B2A5C8B0027A219 /* GearStore.swift */,
+				A031937A2B291ED100CFD343 /* BikeGearModel.swift */,
+				A04844F32B2CFC98005C8BB5 /* StravaBike.swift */,
+				A041AFA32B2E2BDE007E0B61 /* StravaAthlete.swift */,
+				A04844E22B2CB5A8005C8BB5 /* BikeError.swift */,
+				A01D87CB2B2D06A100D243F7 /* StravaOAuthTokenJSON.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		A03AD1CF2B1E278600A62B21 = {
 			isa = PBXGroup;
 			children = (
 				A03AD1DA2B1E278600A62B21 /* Gear Locker */,
-				A03AD1ED2B1E278800A62B21 /* Gear LockerTests */,
 				A03AD1F72B1E278800A62B21 /* Gear LockerUITests */,
+				A0ACC18C2B2D017D00A460E3 /* StravaTests */,
 				A03AD1D92B1E278600A62B21 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,8 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				A03AD1D82B1E278600A62B21 /* Gear Locker.app */,
-				A03AD1EA2B1E278800A62B21 /* Gear LockerTests.xctest */,
 				A03AD1F42B1E278800A62B21 /* Gear LockerUITests.xctest */,
+				A0ACC18B2B2D017D00A460E3 /* StravaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,16 +146,13 @@
 		A03AD1DA2B1E278600A62B21 /* Gear Locker */ = {
 			isa = PBXGroup;
 			children = (
+				A01D87CD2B2D203300D243F7 /* WebService.swift */,
 				A03AD1DB2B1E278600A62B21 /* Gear_LockerApp.swift */,
-				A03AD1DF2B1E278600A62B21 /* Item.swift */,
 				A03AD1E12B1E278800A62B21 /* Assets.xcassets */,
 				A03AD1E32B1E278800A62B21 /* Preview Content */,
 				A0A3EEB62B20D3AF00F4D8F7 /* GearLockerHomePageView.swift */,
-				A03193742B290B4000CFD343 /* BikeGarageView.swift */,
-				A05E6FE52B2A81230027A219 /* BikeEditorView.swift */,
-				A03193762B291CF600CFD343 /* BikeTileView.swift */,
-				A05E6FE32B2A5C8B0027A219 /* GearStore.swift */,
-				A031937A2B291ED100CFD343 /* BikeGearModel.swift */,
+				A01D87C92B2D065E00D243F7 /* Views */,
+				A01D87CA2B2D067300D243F7 /* Models */,
 				A03193702B28F7D300CFD343 /* man-mountain-biking.png */,
 				A03193712B28F7D400CFD343 /* person_climbing.png */,
 			);
@@ -134,14 +167,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		A03AD1ED2B1E278800A62B21 /* Gear LockerTests */ = {
-			isa = PBXGroup;
-			children = (
-				A03AD1EE2B1E278800A62B21 /* Gear_LockerTests.swift */,
-			);
-			path = "Gear LockerTests";
-			sourceTree = "<group>";
-		};
 		A03AD1F72B1E278800A62B21 /* Gear LockerUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +174,15 @@
 				A03AD1FA2B1E278800A62B21 /* Gear_LockerUITestsLaunchTests.swift */,
 			);
 			path = "Gear LockerUITests";
+			sourceTree = "<group>";
+		};
+		A0ACC18C2B2D017D00A460E3 /* StravaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0ACC18D2B2D017D00A460E3 /* StravaTests.swift */,
+				A0ACC1942B2D01AA00A460E3 /* TestData.swift */,
+			);
+			path = StravaTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,24 +205,6 @@
 			productReference = A03AD1D82B1E278600A62B21 /* Gear Locker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A03AD1E92B1E278800A62B21 /* Gear LockerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A03AD2012B1E278800A62B21 /* Build configuration list for PBXNativeTarget "Gear LockerTests" */;
-			buildPhases = (
-				A03AD1E62B1E278800A62B21 /* Sources */,
-				A03AD1E72B1E278800A62B21 /* Frameworks */,
-				A03AD1E82B1E278800A62B21 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A03AD1EC2B1E278800A62B21 /* PBXTargetDependency */,
-			);
-			name = "Gear LockerTests";
-			productName = "Gear LockerTests";
-			productReference = A03AD1EA2B1E278800A62B21 /* Gear LockerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		A03AD1F32B1E278800A62B21 /* Gear LockerUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A03AD2042B1E278800A62B21 /* Build configuration list for PBXNativeTarget "Gear LockerUITests" */;
@@ -207,6 +223,24 @@
 			productReference = A03AD1F42B1E278800A62B21 /* Gear LockerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		A0ACC18A2B2D017D00A460E3 /* StravaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0ACC1932B2D017D00A460E3 /* Build configuration list for PBXNativeTarget "StravaTests" */;
+			buildPhases = (
+				A0ACC1872B2D017D00A460E3 /* Sources */,
+				A0ACC1882B2D017D00A460E3 /* Frameworks */,
+				A0ACC1892B2D017D00A460E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0ACC1902B2D017D00A460E3 /* PBXTargetDependency */,
+			);
+			name = StravaTests;
+			productName = StravaTests;
+			productReference = A0ACC18B2B2D017D00A460E3 /* StravaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -220,11 +254,11 @@
 					A03AD1D72B1E278600A62B21 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
-					A03AD1E92B1E278800A62B21 = {
+					A03AD1F32B1E278800A62B21 = {
 						CreatedOnToolsVersion = 15.0.1;
 						TestTargetID = A03AD1D72B1E278600A62B21;
 					};
-					A03AD1F32B1E278800A62B21 = {
+					A0ACC18A2B2D017D00A460E3 = {
 						CreatedOnToolsVersion = 15.0.1;
 						TestTargetID = A03AD1D72B1E278600A62B21;
 					};
@@ -244,8 +278,8 @@
 			projectRoot = "";
 			targets = (
 				A03AD1D72B1E278600A62B21 /* Gear Locker */,
-				A03AD1E92B1E278800A62B21 /* Gear LockerTests */,
 				A03AD1F32B1E278800A62B21 /* Gear LockerUITests */,
+				A0ACC18A2B2D017D00A460E3 /* StravaTests */,
 			);
 		};
 /* End PBXProject section */
@@ -262,14 +296,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A03AD1E82B1E278800A62B21 /* Resources */ = {
+		A03AD1F22B1E278800A62B21 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A03AD1F22B1E278800A62B21 /* Resources */ = {
+		A0ACC1892B2D017D00A460E3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -283,22 +317,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A01D87CC2B2D06A100D243F7 /* StravaOAuthTokenJSON.swift in Sources */,
+				A041AFA42B2E2BDE007E0B61 /* StravaAthlete.swift in Sources */,
 				A03193772B291CF600CFD343 /* BikeTileView.swift in Sources */,
 				A03193752B290B4000CFD343 /* BikeGarageView.swift in Sources */,
-				A03AD1E02B1E278600A62B21 /* Item.swift in Sources */,
 				A0A3EEB72B20D3AF00F4D8F7 /* GearLockerHomePageView.swift in Sources */,
+				A01D87D42B2D2A3500D243F7 /* StravaBikeTileView.swift in Sources */,
 				A05E6FE62B2A81230027A219 /* BikeEditorView.swift in Sources */,
+				A04844E32B2CB5A8005C8BB5 /* BikeError.swift in Sources */,
 				A03AD1DC2B1E278600A62B21 /* Gear_LockerApp.swift in Sources */,
+				A04844F42B2CFC98005C8BB5 /* StravaBike.swift in Sources */,
 				A05E6FE42B2A5C8B0027A219 /* GearStore.swift in Sources */,
+				A01D87CE2B2D203300D243F7 /* WebService.swift in Sources */,
 				A031937B2B291ED100CFD343 /* BikeGearModel.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A03AD1E62B1E278800A62B21 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A03AD1EF2B1E278800A62B21 /* Gear_LockerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,18 +342,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A0ACC1872B2D017D00A460E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0ACC18E2B2D017D00A460E3 /* StravaTests.swift in Sources */,
+				A0ACC1952B2D01AA00A460E3 /* TestData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A03AD1EC2B1E278800A62B21 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A03AD1D72B1E278600A62B21 /* Gear Locker */;
-			targetProxy = A03AD1EB2B1E278800A62B21 /* PBXContainerItemProxy */;
-		};
 		A03AD1F62B1E278800A62B21 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A03AD1D72B1E278600A62B21 /* Gear Locker */;
 			targetProxy = A03AD1F52B1E278800A62B21 /* PBXContainerItemProxy */;
+		};
+		A0ACC1902B2D017D00A460E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A03AD1D72B1E278600A62B21 /* Gear Locker */;
+			targetProxy = A0ACC18F2B2D017D00A460E3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -454,6 +494,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Gear Locker/Preview Content\"";
+				DEVELOPMENT_TEAM = GT8D9S92A9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -482,6 +523,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Gear Locker/Preview Content\"";
+				DEVELOPMENT_TEAM = GT8D9S92A9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -502,50 +544,14 @@
 			};
 			name = Release;
 		};
-		A03AD2022B1E278800A62B21 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ece1895-nml.Gear-LockerTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gear Locker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gear Locker";
-			};
-			name = Debug;
-		};
-		A03AD2032B1E278800A62B21 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ece1895-nml.Gear-LockerTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gear Locker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gear Locker";
-			};
-			name = Release;
-		};
 		A03AD2052B1E278800A62B21 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GT8D9S92A9;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ece1895-nml.Gear-LockerUITests";
@@ -561,8 +567,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GT8D9S92A9;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ece1895-nml.Gear-LockerUITests";
@@ -571,6 +579,42 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Gear Locker";
+			};
+			name = Release;
+		};
+		A0ACC1912B2D017D00A460E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GT8D9S92A9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ece1895-nml.StravaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gear Locker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gear Locker";
+			};
+			name = Debug;
+		};
+		A0ACC1922B2D017D00A460E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GT8D9S92A9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ece1895-nml.StravaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gear Locker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gear Locker";
 			};
 			name = Release;
 		};
@@ -595,20 +639,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A03AD2012B1E278800A62B21 /* Build configuration list for PBXNativeTarget "Gear LockerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A03AD2022B1E278800A62B21 /* Debug */,
-				A03AD2032B1E278800A62B21 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		A03AD2042B1E278800A62B21 /* Build configuration list for PBXNativeTarget "Gear LockerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A03AD2052B1E278800A62B21 /* Debug */,
 				A03AD2062B1E278800A62B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0ACC1932B2D017D00A460E3 /* Build configuration list for PBXNativeTarget "StravaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0ACC1912B2D017D00A460E3 /* Debug */,
+				A0ACC1922B2D017D00A460E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

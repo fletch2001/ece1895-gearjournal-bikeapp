@@ -7,9 +7,10 @@
 
 import SwiftUI
 
-let stravaOrange = Color(red: 228 / 255, green : 91 / 255, blue: 41 / 255)
+
 
 struct BikeTileView: View {
+    private let stravaOrange = Color(red: 228 / 255, green : 91 / 255, blue: 41 / 255)
     private let foreGroundColor = Color(red: 90/255, green: 72/255, blue: 30 / 255)
     
     @Binding var bike: BikeGearModel
@@ -57,7 +58,7 @@ struct BikeTileView: View {
     }
 }
 
-var testBike: BikeGearModel = BikeGearModel(name: "rock rumbler", manufacturer: "Specialized", model: "Stumpjumper", year: "1988", mileage: 1234.5)
+//var testBike: BikeGearModel = BikeGearModel(name: "rock rumbler", manufacturer: "Specialized", model: "Stumpjumper", year: "1988", mileage: 1234.5)
 
 #Preview {
     

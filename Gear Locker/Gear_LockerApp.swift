@@ -1,12 +1,12 @@
 //
 //  Gear_LockerApp.swift
-//  Gear Locker
-//
-//  Created by Noah Lichstein on 12/4/23.
 //
 
 import SwiftUI
 import SwiftData
+
+// put your strava OAuth access token here.
+let strava_acces_token = ""
 
 @main
 struct Gear_LockerApp: App {
@@ -14,7 +14,6 @@ struct Gear_LockerApp: App {
     
     var body: some Scene {
         WindowGroup {
-            //GearLockerHomePageView(bikeGarage: $bikeStore.bikes) {
             BikeGarageView(bikeGarage: $bikeStore.bikes) {
                 Task {
                     do {
